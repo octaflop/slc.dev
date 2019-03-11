@@ -1,0 +1,12 @@
+<div class="communities">
+  {% for community in site.data.communities.communities %}
+  <div class="community">
+    <a href="{{ community.url }}">
+      <img src="{{ community.logo_url }}" class="community-img">
+      <h4>
+        {{ community.name }}
+      </h4>
+    </a>
+  </div>
+  {% endfor %}
+<div>

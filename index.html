@@ -98,12 +98,8 @@ permalink: /
                     {% endif %}
                   </ul>
 
-                  <div class="communities">
-                    {% for community in communities %}
-                      <h4>{{ community.title }}</h4>
-                    {% endfor %}
-                  </div>
-                  <ul>
+                  {% include communities.html %}
+
 
                     <li><a class="fa fa-2x fa-camera"
                       href="/photos/"

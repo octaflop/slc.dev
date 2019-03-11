@@ -40,13 +40,13 @@ logo: "/imgs/profile.jpg"
 cover: "/imgs/background.jpg"
 
 # Social
-name: "slc.dev"
+name: "slc ◇ dev"
 author: "The Community of Salt Lake City"
 twitter_handle: '@slcdotdev'
 social:
   - icon: twitter
     url: https://twitter.com/slcdotdev
-    dsec: Follow me on twitter
+    dsec: Follow us on twitter
     share_url: https://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
