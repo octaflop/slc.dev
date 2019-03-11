@@ -1,0 +1,65 @@
+# Site settings
+title: slc.dev
+description: "a directory of dev communities in the Salt Lake Valley"
+url: "https://slc.dev"
+baseurl: ""
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  slcpython/slc.dev
+# codepen_username: your_codepen_username_goes_here
+# facebook_username: your_facebook_username_goes_here
+# vk_username: your_vk_username_goes_here
+twitter_username: slcdotdev
+# linked_in_username: your_linked_in_username_goes_here
+# vine_username:  
+# instagram_username:  
+# flickr_username: 
+# steam_username: 
+# soundcloud_username:  your_soundcloud_username_goes_here
+# stack_of_username: 
+# reddit_username: 
+# medium_username:  your_medium_username_goes_here
+# tumblr_username: your_tumblr_username_goes_here
+# weibo_username: your_weibo_username_goes_here
+community_urls: "/hacking"
+# email: faris@theluckybead.com
+# public_key_url: your_public_key_goes_here
+
+
+avatar: yes
+# avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "slcdev.logo.svg"
+
+front_img: yes
+front_img_path: "/imgs/background.jpg"
+
+logo: "/imgs/profile.jpg"
+cover: "/imgs/background.jpg"
+
+# Social
+name: "slc.dev"
+author: "The Community of Salt Lake City"
+twitter_handle: '@slcdotdev'
+social:
+  - icon: twitter
+    url: https://twitter.com/slcdotdev
+    dsec: Follow me on twitter
+    share_url: https://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon: github
+    url: https://github.com/slcpython/slc.dev
+
+paginate: 5
+paginate_path: "/all/page:num/"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+gems:
+  - jemoji
+  - jekyll-paginate
