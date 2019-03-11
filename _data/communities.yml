@@ -1,0 +1,14 @@
+communities:
+  - name: Thing
+    type: Cessna-150
+    price: $95.00
+    poh_link: /static/pohs/C150POH.pdf
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: cessna150.jpg
+
+  - name: N41650
+    type: Piper Cherokee Warrior / PA28-151
+    price: $125.00
+    poh_link: /static/pohs/PA28POH.pdf
+    wb: /static/pohs/AirmotiveWT&BAL.xls
+    photo: piper_cherokee_warrior.jpg

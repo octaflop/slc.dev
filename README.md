@@ -1,6 +1,5 @@
-# farischebib.is
+# slc.dev
 
-A listing of various site profiles of Faris Chebib
 
 ## Installation
 

@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 
 body {
-    font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fira Code","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
@@ -21,7 +21,7 @@ body {
     left: 0;
 }
 #avatar {
-    height: 180px;
+    height: 40em;
     border-radius: 100%;
     border: 5px solid white;
     margin-bottom: 40px;
@@ -31,7 +31,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 0.01em;
     font-size: 4em;
-    font-family: "Droid Sans";
+    font-family: "Fira Code";
     margin: -10px 0;
 }
 h3 {
@@ -125,7 +125,7 @@ a {
 	.description {
 			display: inline-block;
 			color: white;
-			font-family: "Droid Sans";
+			font-family: "Fira Code";
 			margin-left: 40px;
 	}
 }
