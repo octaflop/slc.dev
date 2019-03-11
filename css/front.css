@@ -74,8 +74,8 @@ h3 {
     padding-bottom: 90px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    height: 100%;
-    padding-top: 60px;
+    height: 250%;
+    padding-top: 4em;
 }
 
 ul {
@@ -115,6 +115,15 @@ a {
 }
 
 @media (max-width: 450px) {
+    div.content {
+        padding-bottom: 90px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        height: 150%;
+        padding-top: 4em;
+        width: 100%;
+    }
+
     ul {
         text-align: center;
     }
