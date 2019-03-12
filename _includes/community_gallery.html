@@ -1,0 +1,25 @@
+<div class="community-gallery">
+  <ul>
+  {% for community in site.data.communities.communities %}
+    <li class="mdc-image-list__item">
+      <div class="mdc-image-list__image-aspect-container">
+        <img 
+          srcset="{{ community.logo_path }}.320w.png 320w,
+                  {{ community.logo_path }}.480w.png 480w,
+                  {{ community.logo_path }}.800w.png 800w"
+          sizes="(max-width: 320px) 280px,
+                 (max-width: 480px) 440px,
+                 800px"
+          class="mdc-image-list__image" 
+          src="converted/{{ community.logo_path }}.png"
+          alt="{{ community.name }} image">
+        </div>
+      <div class="mdc-image-list__supporting">
+        <span class="mdc-image-list__label">
+          {{ community.name }}
+        </span>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

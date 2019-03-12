@@ -7,7 +7,7 @@ permalink: /
       {% include front_head.html %}
     </head>
 
-    <body>
+    <body class="mdc-typography">
         <div class="content">
             {% if site.front_img %}
               <img src="{{ site.front_img_path }}" id="fullscreen">
@@ -98,9 +98,11 @@ permalink: /
                     {% endif %}
                   </ul>
 
+                  {% include community_gallery.html %}
+
                   {% include communities.html %}
 
-
+                  <ul>
                     <li><a class="fa fa-2x fa-camera"
                       href="/photos/"
                       title="Photo blog"><span

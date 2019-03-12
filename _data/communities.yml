@@ -1,8 +1,8 @@
 communities:
   - name: SLCPython
-    logo_url: imgs/communities/slcpython.png
+    logo_path: imgs/communities/slcpython
     url: https://www.meetup.com/SLCPython/
 
   - name: Utah Data Engineering Meetup
-    logo_url: imgs/communities/udem.png
+    logo_path: imgs/communities/udem
     url: https://www.meetup.com/utah-data-engineering-meetup/

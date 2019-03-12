@@ -6,7 +6,9 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
 <link rel="stylesheet" href="/css/front.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css" />
+<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
 <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 <!-- temporary redirect -->
 <script type="text/javascript">
@@ -14,6 +16,7 @@ var host = "farischebib.is";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
   window.location.protocol = "https";
 </script>
+<script async src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40720897-6"></script>
 <script>
@@ -22,4 +25,8 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
   gtag('js', new Date());
 
   gtag('config', 'UA-40720897-6');
+</script>
+
+<script type="text/javascript">
+// mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
 </script>

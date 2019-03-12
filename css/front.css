@@ -1,4 +1,5 @@
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+@import "@material/image-list/mdc-image-list";
 
 body {
     font-family: "Fira Code", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -17,6 +18,12 @@ body {
 
 .community>a>h4 {
     margin-top: -10em;
+}
+
+div.community-gallery {
+    max-width: 800px;
+    left: 0px;
+    text-align: center;
 }
 
 img.community-img {
